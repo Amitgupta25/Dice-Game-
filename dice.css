@@ -1,0 +1,60 @@
+body{
+    margin:0px;
+    padding: 0px;
+
+    padding-top: 80px;
+    background-color: rgb(217, 250, 242);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+
+}
+
+.container{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+    box-shadow: -2px 3px 13px 4 px rgba(0,0,0,0.75);
+}
+
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.dice{
+    width: 100px;
+    height:100px;
+    background-color:bisque;
+    margin:0 auto;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center; 
+    display:flex;
+    font-size: 30px;
+    padding: 20px;
+}
+
+button{
+    padding:10;
+    margin-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#rollbtn{
+    background-color: lightblue;
+    margin-right: 20px;
+}
+
+#resetbtn{
+    background-color: lightblue;
+}
